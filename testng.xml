@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/navin/IdeaProjects/clone repo for git exmple/Framework_28Nov_2023">
+        <classes>
+            <class name="testcases.AccountDetailsTest">
+                <methods>
+                    <include name="verifyLostPasswordLinkIsClickable"/>
+                </methods>
+            </class>
+            <class name="testcases.CafeFinderTest">
+                <methods>
+                    <include name="verifyCafeFinderFunction"/>
+                </methods>
+            </class>
+            <class name="testcases.HomeTest">
+                <methods>
+                    <include name="verifyNewsPageFilterBtn"/>
+                    <include name="verifyDiscoverPageClickable"/>
+                </methods>
+            </class>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="verifyLoginWithValidUserNameAndPassword"/>
+                    <include name="verifyLoginWithInvalidUserNameAndValidPassword"/>
+                    <include name="verifyLoginWithInvalidUserNameAndInvalidPassword"/>
+                    <include name="verifyLoginWithValidUserNameAndInvalidPassword"/>
+                </methods>
+            </class>
+            <class name="testcases.LostYourPasswordTest">
+                <methods>
+                    <include name="verifyLostPasswordLinkIsClickable"/>
+                    <include name="verifyPasswordResetWithValidEmail"/>
+                </methods>
+            </class>
+            <class name="testcases.MyAccountTest">
+                <methods>
+                    <include name="verifyLogoutFunction"/>
+                    <include name="recentOrderFunction"/>
+                </methods>
+            </class>
+            <class name="testcases.NewsTest">
+                <methods>
+                    <include name="verifyNewsPageFilterBtn"/>
+                </methods>
+            </class>
+            <class name="testcases.OurStoryTest">
+                <methods>
+                    <include name="verifyLoginWithValidUserNameAndPassword"/>
+                </methods>
+            </class>
+            <class name="testcases.RegisterTest">
+                <methods>
+                    <include name="verifyNewUserRegister"/>
+                    <include name="verifyNewUserRegisterWithAlreadyRegisteredUser"/>
+                    <include name="verifyNewUserRegisterWithInvalidUser"/>
+                </methods>
+            </class>
+            <class name="testcases.ShopTest">
+                <methods>
+                    <include name="verifyShopFunction"/>
+                </methods>
+            </class>
+            <class name="testcases.SubscriptionTest">
+                <methods>
+                    <include name="verifySubscriptionPage"/>
+                </methods>
+            </class>
+            <class name="testcases.WholesaleTest">
+                <methods>
+                    <include name="verifyWholesalePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
